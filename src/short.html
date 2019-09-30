@@ -57,18 +57,31 @@
                         <tr style="padding:0;text-align:left;vertical-align:top">
                           <th style="Margin:0;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.25;margin:0;padding:0;text-align:left">
                             <p style="Margin:0;color:#0a0a0a;font-family:'Helvetica Neue','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;font-weight:700;letter-spacing:1px;line-height:1.25;margin:0;padding:0;text-align:left">
-                              <span style="font-weight:500">
-                                MEGAN I. MANSELL
+                              <span style="font-weight:500; text-transform:uppercase;">
+                                {{name}}
                               </span>
                             </p>
                             <p style="Margin:0;color:#0a0a0a;font-family:'Helvetica Neue','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:11px;font-weight:300;line-height:14px;margin:0;padding:0;text-align:left">
-                              SENIOR ASSOCIATE / MARKETING COORDINATOR
-                              <br />
-                              <a href="+17036837447" style="color:#0a0a0a;text-decoration:none;">
+                              <span style="text-transform:uppercase;">{{title}}</span>
+                              <br /> 
+                              {% if phone[5] %}
+                              <a href="tel:{{phone_formatted}}" style="color:#0a0a0a;text-decoration:none;">
                                 <span style="color:#0a0a0a;text-decoration:none;">
-                                  703.683.7447 x102
+                                  {{phone}}
                                 </span>
                               </a>
+                              {% else %}
+                              <a href="tel:{{phone_formatted[0]}}" style="color:#0a0a0a;text-decoration:none;">
+                                <span style="color:#0a0a0a;text-decoration:none;">
+                                  {{phone[0]}}
+                                </span>
+                              </a> |
+                              <a href="tel:{{phone_formatted[1]}}" style="color:#0a0a0a;text-decoration:none;">
+                                <span style="color:#0a0a0a;text-decoration:none;">
+                                  {{phone[1]}} 
+                                </span>
+                              </a>
+                              {% endif %}
                             </p>
                             <table border="0"
                               width="48"
@@ -108,55 +121,6 @@
                                     <span style="text-transform:uppercase;font-size:8.5px;line-height:1.25;font-family:'Helvetica Neue','Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:400">
                                       Landscape Architecture
                                       <br />Planning / Urban Design
-                                      <br />&#xA0;
-                                    </span>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                            <table style="Margin:0 auto;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:left;vertical-align:top;width:100%">
-                              <tbody>
-                                <tr style="padding:0;text-align:left;vertical-align:top">
-                                  <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:8px;font-weight:400;hyphens:auto;line-height:8px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
-                                    <span style="text-transform:uppercase;font-size:8.5px;line-height:1.25;font-family:'Helvetica Neue','Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:400">
-                                      510 King Street | Ste 300 | Alexandria, VA 22314 | 
-                                      <a href="+17036837447" style="color:#0a0a0a;text-decoration:none;">
-                                        <span style="color:#0a0a0a;text-decoration:none;">
-                                        703.683.7447 x102
-                                        </span>
-                                      </a>
-                                      <br />
-                                      347 W 36th Street | Ste 1201 | New York, NY 10018 | 
-                                      <a href="+12122160055" style="color:#0a0a0a;text-decoration:none;">
-                                        <span style="color:#0a0a0a;text-decoration:none;">
-                                        212.216.0055
-                                        </span>
-                                      </a>
-                                      <br />&#xA0;
-                                      <br />
-                                      <a href="http://rhiplaces.com" style="color:#ff245c; text-transform:uppercase;"><span style="color:#ff245c; text-transform:uppercase;">rhiplaces.com</span></a>
-                                      <br />&#xA0;
-                                      <br />
-                                      <a href="https://www.instagram.com/rhiplaces/" style="color:#0a0a0a;text-decoration:none;">
-                                        <span style="color:#0a0a0a;text-decoration:none;">Instagram</span></a>&#xA0;&#xA0;
-                                      | &#xA0;
-                                      <a href="https://www.twitter.com/rhiplaces/" style="color:#0a0a0a;text-decoration:none;">
-                                        <span style="color:#0a0a0a;text-decoration:none;">Twitter</span></a>&#xA0;&#xA0;
-                                      | &#xA0;
-                                      <a href="https://www.linkedin.com/company/rhodeside-&-harwell-inc." style="color:#0a0a0a;text-decoration:none;">
-                                        <span style="color:#0a0a0a;text-decoration:none;">LinkedIn</span></a>&#xA0;&#xA0;
-                                      | &#xA0;
-                                      <a href="https://www.facebook.com/RHIplaces/" style="color:#0a0a0a;text-decoration:none;">
-                                        <span style="color:#0a0a0a;text-decoration:none;">Facebook</span></a>&#xA0;&#xA0;
-                                      | &#xA0;
-                                      <a href="http://planplaceblog.com/" style="color:#0a0a0a;text-decoration:none;">
-                                        <span style="color:#0a0a0a;text-decoration:none;">Plan.Place Blog</span></a>
-                                      <br />&#xA0;
-                                      <br />
-                                      <span style="font-size:7px;font-weight:400;letter-spacing:0.25px;line-height:10px;">
-                                        Rhodeside &amp; Harwell is an equal opportunity employer. Please contact us
-                                        <br />if you are planning to visit our office and need special accomodations.
-                                      </span>
                                     </span>
                                   </td>
                                 </tr>

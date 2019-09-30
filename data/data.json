@@ -1,0 +1,219 @@
+[
+  {
+    "name": "Amanda Cortez, AICP, PMP",
+    "title": "Landscape Designer",
+    "email": "amandac@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x136",
+    "phone_formatted": "7036837447,136"
+  },
+  {
+    "name": "Carlos L. Perdomo",
+    "title": "Project Accountant",
+    "email": "carlosp@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x139",
+    "phone_formatted": "7036837447,139"
+  },
+  {
+    "name": "Christopher A. Nelson",
+    "title": "Landscape Designer",
+    "email": "christophern@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x118",
+    "phone_formatted": "7036837447,118"
+  },
+  {
+    "name": "Deana D. Rhodeside, Ph.D.",
+    "title": "Director / Urban Planner",
+    "email": "deanar@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x105",
+    "phone_formatted": "7036837447,105"
+  },
+  {
+    "name": "Derrick J. Wolbaum",
+    "title": "Sr. Associate / Landscape Designer",
+    "email": "derrickw@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x122",
+    "phone_formatted": "7036837447,122"
+  },
+  {
+    "name": "Drew J. Taylor, PLA, ASLA",
+    "title": "Sr. Associate / Landscape Architect (PA)",
+    "email": "drewt@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x121",
+    "phone_formatted": "7036837447,121"
+  },
+  {
+    "name": "Elliot Rhodeside, FASLA",
+    "title": "Director / Landscape Architect (NC, VA)",
+    "email": "elliotr@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x108",
+    "phone_formatted": "7036837447,108"
+  },
+  {
+    "name": "Eric Feldman, AICP",
+    "title": "Sr. Associate / Urban Planner",
+    "email": "ericf@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x111",
+    "phone_formatted": "7036837447,111"
+  },
+  {
+    "name": "Faye B. Harwell, FASLA",
+    "title": "Director / Landscape Architect (DE, MD, NJ, NY, PA, VA)",
+    "email": "fayeh@rhiplaces.com",
+    "address": [
+      "510 King Street, Ste. 300, Alexandria, VA 22314",
+      "347 W. 36th Street, Ste. 1201, New York, NY 10018"
+    ],
+    "phone": [
+      "703.683.7447 x109",
+      "212.216.0055"
+    ],
+    "phone_formatted": [
+      "7036837447,109",
+      "2122160055"
+      ]
+  },
+  {
+    "name": "Jeff Dragan, PLA",
+    "title": "Sr. Landscape Architect (NJ, NY)",
+    "email": "jeffd@rhiplaces.com",
+    "address": "347 W. 36th Street, Ste. 1201, New York, NY 10018",
+    "phone": "212.216.0055",
+    "phone_formatted": "2122160055"
+  },
+  {
+    "name": "Jennifer K. Glaser",
+    "title": "Finance Manager",
+    "email": "jenniferg@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x103",
+    "phone_formatted": "7036837447,103"
+  },
+  {
+    "name": "Jennifer L. Koch, AICP",
+    "title": "Sr. Associate / Urban Planner",
+    "email": "jenniferk@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x134",
+    "phone_formatted": "7036837447,134"
+  },
+  {
+    "name": "Jonathan E. Runge",
+    "title": "Sr. Associate / Landscape Designer",
+    "email": "jonathanr@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x129",
+    "phone_formatted": "7036837447,129"
+  },
+  {
+    "name": "Josh Penn, AICP",
+    "title": "Urban Planner",
+    "email": "joshp@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x115",
+    "phone_formatted": "7036837447,115"
+  },
+  {
+    "name": "Jules R. Krinsky, PLA, ASLA",
+    "title": "Landscape Architect (GA)",
+    "email": "julesk@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x113",
+    "phone_formatted": "7036837447,113"
+  },
+  {
+    "name": "Kenny Jones",
+    "title": "Landscape Designer",
+    "email": "kennyj@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x134",
+    "phone_formatted": "7036837447,134"
+  },
+  {
+    "name": "Kevin Fisher,PLA",
+    "title": "Principal / Landscape Architect (MD, NY, VA)",
+    "email": "kevinf@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x106",
+    "phone_formatted": "7036837447,106"
+  },
+  {
+    "name": "Kurt E. Parker, PLA, ASLA",
+    "title": "Principal / Landscape Architect (MD, NY, VA)",
+    "email": "kurtp@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x125",
+    "phone_formatted": "7036837447,125"
+  },
+  {
+    "name": "Mark Haney",
+    "title": "Landscape Designer",
+    "email": "markh@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x112",
+    "phone_formatted": "7036837447,112"
+  },
+  {
+    "name": "Mark J. Mastalerz, PLA, ASLA, LEED AP",
+    "title": "Managing Principal / Landscape Architect (MD, NY, VA)",
+    "email": "markm@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x104",
+    "phone_formatted": "7036837447,104"
+  },
+  {
+    "name": "Mary J. Zimmerman",
+    "title": "Associate",
+    "email": "maryz@rhiplaces.com",
+    "address": "347 W. 36th Street, Ste. 1201, New York, NY 10018",
+    "phone": "212.216.0055",
+    "phone_formatted": "2122160055"
+  },
+  {
+    "name": "Max A. Pastore",
+    "title": "Sr. Associate / Urban Designer",
+    "email": "maxp@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x138",
+    "phone_formatted": "7036837447,138"
+  },
+  {
+    "name": "Megan I. Mansell",
+    "title": "Sr. Associate / Marketing Coordinator",
+    "email": "meganm@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x102",
+    "phone_formatted": "7036837447,102"
+  },
+  {
+    "name": "Rachel L. Schneider, PLA",
+    "title": "Principal / Landscape Architect (MD)",
+    "email": "rachels@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x132",
+    "phone_formatted": "7036837447,132"
+  },
+  {
+    "name": "Rebecca May, ASLA",
+    "title": "Sr. Associate / Landscape Designer",
+    "email": "rebeccam@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x123",
+    "phone_formatted": "7036837447,123"
+  },
+  {
+    "name": "Sukirti Ghosh, LEED Green. Assoc.",
+    "title": "Sr. Associate / Urban Designer",
+    "email": "sukirtig@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x120",
+    "phone_formatted": "7036837447,120"
+  }
+]
