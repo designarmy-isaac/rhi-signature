@@ -10,6 +10,7 @@ import clean from 'gulp-clean';
 
 const paths = {
   templates: 'src/templates/*.html',
+  img: 'src/img/*',
   data: 'data/data.json',
   dest: 'dist',
   index: 'src/index.html'
@@ -41,6 +42,10 @@ gulp.task('build', () => {
   });
 });
 
+gulp.task('img', () => {
+  return gulp.src(paths.img)
+    .pipe(gulp.dest(paths.dest))
+});
 
 // WIP
 
@@ -75,7 +80,6 @@ gulp.task('build', () => {
 
 
 
-gulp.task('default', (cb) => {
-  gulp.series('cl', 'build');
-  cb();
+gulp.task('default', () => {
+  gulp.series('cl', 'build', 'img');
 });
