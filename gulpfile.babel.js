@@ -1,57 +1,81 @@
+'use strict';
+
 import gulp from 'gulp';
 import nunjucks from 'gulp-nunjucks';
 import data from 'gulp-data';
 import open from 'gulp-open';
 import rename from 'gulp-rename';
 import fse from 'fs-extra';
-import del from 'del';
+import clean from 'gulp-clean';
 
 const paths = {
-  templates: 'src/*.html',
+  templates: 'src/templates/*.html',
   data: 'data/data.json',
-  dest: 'dist'
+  dest: 'dist',
+  index: 'src/index.html'
 }
 
-/* ====================================
-   ==================================== Clean Dist Folder
-   ================================= */
-
-export const clean = () => del([paths.dest]);
-
-
-/* ====================================
-   ==================================== Compile data and templates
-   ================================= */ 
+export const cl = () => {
+  return gulp.src(paths.dest, {read: false, allowEmpty: true})
+    .pipe(clean());
+};
 
 
-export function compile() {
-  var people = JSON.parse(fse.readFileSync(paths.data)); // parses data
+
+gulp.task('build', () => {
+  var people = JSON.parse( fse.readFileSync( paths.data ) );
+  
   people.forEach(function (p) {
-    var email = p.email;
-    var regex = /.+?(?=@)/g;
-    var un = email.match(regex);
-    console.log(un);
+    var email = p.email,
+        regex = /.+?(?=@)/g,
+        un = email.match(regex);
     
     return gulp.src(paths.templates)
-      .pipe(data(p))
-      .pipe(nunjucks.compile())
-      .pipe(rename(function (path) {
-        path.basename = un + '-' + path.basename;
-      }))
-      .pipe(gulp.dest(paths.dest))
-      .pipe(open())
-  })
-}
+    .pipe(data(p))
+    .pipe(nunjucks.compile())
+    .pipe(rename(function (path) {
+      path.basename = un + '-' + path.basename;
+    }))
+    .pipe(gulp.dest(paths.dest))
+    .pipe(open())
+  });
+});
 
-export function log() {
-  console.log('worked');
-}
 
-const build = gulp.series(clean, compile);
+// WIP
 
-export function watch() {
-  build();
-  gulp.watch([paths.templates, paths.data], compile);
-}
+//  var people = JSON.parse( fse.readFileSync( paths.data ) ),
+//      signatures = () => {
+//        var a = [];
+//        people.forEach(function (p) {
+//          var email = p.email,
+//              regex = /.+?(?=@)/g,
+//              un = email.match(regex),
+//              short = un + '-short.html',
+//              long = un + '-long.html';
+//
+//          a.push(short); 
+//          a.push(long);
+//          });
+//        return a;
+//      };
+//
 
-export default build;
+//gulp.task('index', () => {
+//  console.log(signatures);
+//  return gulp.src(paths.index)
+//    .pipe(data(() => (signatures)))
+//    .pipe(nunjucks.compile())
+//    .pipe(gulp.dest(paths.dest))
+//    .pipe(open());
+//  
+//  console.log(signatures);
+//  
+//});
+
+
+
+gulp.task('default', (cb) => {
+  gulp.series('cl', 'build');
+  cb();
+});

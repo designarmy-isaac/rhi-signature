@@ -15,6 +15,7 @@
     </div>
     <div class="pure-g" style="max-width:1100px; margin-right: 1rem; margin-left: 1rem; padding-top: 3rem;">
       <div class="pure-u-1">
+        
         <ul>
           <li><a href="dist/amandac-long.html">amandac-long.html</a></li>
           <li><a href="dist/amandac-short.html">amandac-short.html</a></li>
@@ -69,6 +70,18 @@
           <li><a href="dist/sukirtig-long.html">sukirtig-long.html</a></li>
           <li><a href="dist/sukirtig-short.html">sukirtig-short.html</a></li>
         </ul>
+        
+        
+        {% for signature in signatures %}
+        
+        <a href="/dist/{{signature.path}}.html">{{signature.path}}.html</a>
+        
+        {% else %}
+        
+<!--        There are no templates or data, or an error occured.-->
+        
+        {% endfor %}
+        
       </div>
     </div>
    

@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Amanda Cortez, AICP, PMP",
+    "title": "Landscape Designer",
+    "email": "amandac@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x136",
+    "phone_formatted": "7036837447,136"
+  },
+  {
+    "name": "Carlos L. Perdomo",
+    "title": "Project Accountant",
+    "email": "carlosp@rhiplaces.com",
+    "address": "510 King Street, Ste. 300, Alexandria, VA 22314",
+    "phone": "703.683.7447 x139",
+    "phone_formatted": "7036837447,139"
+  },
+  {
+    "name": "Faye B. Harwell, FASLA",
+    "title": "Director / Landscape Architect (DE, MD, NJ, NY, PA, VA)",
+    "email": "fayeh@rhiplaces.com",
+    "address": [
+      "510 King Street, Ste. 300, Alexandria, VA 22314",
+      "347 W. 36th Street, Ste. 1201, New York, NY 10018"
+    ],
+    "phone": [
+      "703.683.7447 x109",
+      "212.216.0055"
+    ],
+    "phone_formatted": [
+      "7036837447,109",
+      "2122160055"
+      ]
+  }
+]
